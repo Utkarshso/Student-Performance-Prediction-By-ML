@@ -1,0 +1,4 @@
+[ 2025-07-12 11:45:24,023 ] 10 root - INFO - The execution has started
+[ 2025-07-12 11:45:24,024 ] 24 root - INFO - Reading SQL database started
+[ 2025-07-12 11:45:24,142 ] 32 root - INFO - Connection Established
+[ 2025-07-12 11:45:24,254 ] 18 root - INFO - Custom Exception
