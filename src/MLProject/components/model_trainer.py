@@ -21,7 +21,13 @@ from xgboost import XGBRegressor
 from src.MLProject.exception import CustomException
 from src.MLProject.logger import logging
 from src.MLProject.utilis import save_object,evaluate_models
+import dagshub
+dagshub.init(repo_owner='Utkarshso', repo_name='Student-Performance-Prediction-By-ML', mlflow=True)
 
+import mlflow
+with mlflow.start_run():
+  mlflow.log_param('parameter name', 'value')
+  mlflow.log_metric('metric name', 1)
 
 @dataclass
 class ModelTrainerConfig:
